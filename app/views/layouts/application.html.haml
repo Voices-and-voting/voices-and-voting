@@ -10,9 +10,8 @@
     .container
       .row
         .col-xs-3
-          = link_to image_tag( 'logo.png', size: "200x200"), '/'
+          = link_to image_tag( 'logo.png', size: "200x200", class: 'img-responsive'), '/'
         .col-xs-9
-          %h1
-            Voices and Voting
+          = image_tag('voicesvoting.png', size: "600x200", class: 'img-responsive')      
     .container
       = yield

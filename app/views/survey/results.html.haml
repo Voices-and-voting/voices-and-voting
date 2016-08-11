@@ -1,14 +1,23 @@
 %h1
   Results
-%h2
-  = "You wanted: "
+%hr
+.text-center
+  %h2
+    Candidate Match
+  %h3
+    You match with
+    Muffy Weiler (D)
+  = image_tag('muffy.jpg', size: '400x400', class: 'center-block img-responsive')
+  %h3 
+    You agree on
+    
+  = "#{params[:one]} immigration".humanize
+  %br
+  = "#{params[:two]} taxes".humanize
+  %br
+  = "#{params[:three]} guns".humanize
 
-%ul
-  %li
-    = "#{params[:one]} immigration".humanize
-  %li
-    = "#{params[:two]} taxes".humanize
-  %li
-    = "#{params[:three]} guns".humanize
+
+%hr
 %br
 = link_to 'Learn More', '#'
