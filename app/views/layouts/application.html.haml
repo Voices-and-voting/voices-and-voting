@@ -7,10 +7,10 @@
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
   %body
-    .container
+    .container.banner
       .row
         .col-xs-3
-          = link_to image_tag( 'logo.png', size: "200x200", class: 'img-responsive'), '/'
+          = link_to image_tag( 'logo.png', size: "160x160", class: 'img-responsive'), '/'
         .col-xs-9
           = image_tag('voicesvoting.png', size: "600x200", class: 'img-responsive')      
     .container
