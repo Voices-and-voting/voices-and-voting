@@ -7,5 +7,8 @@ Rails.application.routes.draw do
   get '/survey/results', to: 'survey#results'
 
   root to: 'index#index'
-  get '/candidates' => 'index#candidates'
+  get '/candidates', to: 'index#candidates'
+  get '/candidates/carmen', to: 'index#carmen'
+  get '/candidates/muffy', to: 'index#muffy'
+  get '/candidates/steven', to: 'index#steven'
 end
