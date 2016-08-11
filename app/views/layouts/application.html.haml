@@ -1,0 +1,18 @@
+!!!
+%html
+  %head
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %title VoicesAndVoting
+    = csrf_meta_tags
+    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+    = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+  %body
+    .container
+      .row
+        .col-xs-3
+          = link_to image_tag( 'logo.png', size: "200x200"), '/'
+        .col-xs-9
+          %h1
+            Voices and Voting
+    .container
+      = yield
