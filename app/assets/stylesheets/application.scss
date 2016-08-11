@@ -16,12 +16,13 @@
 @import "bootstrap";
 
 html {
-  //background-color: #F1F1F1;
-  background-image: image-url('usaflag.png');
+  background-color: #F1F1F1;
+  //background:rgba(0,0,0,0.4);
+  //background-image: image-url('usaflag.png');
   padding: 20px 20px 20px 20px;
-  background-attachment: fixed;
-  background-position: 100% 100%;
-  background-repeat: no-repeat;
+  //background-attachment: fixed;
+  //background-position: 100% 100%;
+  //background-repeat: no-repeat;
 }
 
 body {

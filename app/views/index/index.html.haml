@@ -1,10 +1,18 @@
-= image_tag('voicesvotetag.png', size: "800x200", class: 'center-block img-responsive')
+.text-center
+  %br
+  = image_tag('voicesvotetag.png', size: "800x200", class: 'center-block img-responsive')
+  %hr
+  .container
+    .row
+      .col-sm-4
+        = link_to 'Candidate Match <i class="glyphicon glyphicon-arrow-right"></i>'.html_safe, '/survey', class: 'btn btn-lg btn-primary'
+      .col-sm-4
+        = link_to 'Candidate Information <i class="glyphicon glyphicon-arrow-right"></i>'.html_safe, '/candidates', class: 'btn btn-lg btn-primary'
+      .col-sm-4
+        = link_to 'Ballot Info <i class="glyphicon glyphicon-arrow-right"></i>'.html_safe, '/ballot', class: 'btn btn-lg btn-primary'
+%br
+%br
+%br
 %hr
 .embed-responsive.embed-responsive-16by9
   <iframe width="560" height="315" src="https://www.youtube.com/embed/ODETODyDA6A" frameborder="0" allowfullscreen></iframe>
-%hr
-= link_to 'Candidate Match <i class="glyphicon glyphicon-arrow-right"></i>'.html_safe, '/survey'
-%br
-= link_to 'Candidate Information <i class="glyphicon glyphicon-arrow-right"></i>'.html_safe, '/candidates'
-%br
-= link_to 'Ballot Info <i class="glyphicon glyphicon-arrow-right"></i>'.html_safe, '/ballot'
