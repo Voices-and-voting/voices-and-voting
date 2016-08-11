@@ -14,3 +14,12 @@
 // "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
 @import "bootstrap-sprockets";                                                 
 @import "bootstrap";
+
+html {
+  background-color: #FAE4AB;
+}
+
+body {
+  background-color: #FAE4AB;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
