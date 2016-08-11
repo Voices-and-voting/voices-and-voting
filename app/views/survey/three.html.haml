@@ -1,0 +1,11 @@
+%h1
+  Candidate Match Questionaire
+
+%h2
+  Guns
+
+%ul
+  %li
+    = link_to 'More Gun Control', survey_results_path(one: params[:one], two: params[:two], three: 'more')
+  %li
+    = link_to 'Less Gun Control', survey_results_path(one: params[:one], two: params[:two], three: 'less') 

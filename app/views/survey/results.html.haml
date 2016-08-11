@@ -1,0 +1,14 @@
+%h1
+  Results
+%h2
+  = "You wanted: "
+
+%ul
+  %li
+    = "#{params[:one]} immigration".humanize
+  %li
+    = "#{params[:two]} taxes".humanize
+  %li
+    = "#{params[:three]} guns".humanize
+%br
+= link_to 'Learn More', '#'

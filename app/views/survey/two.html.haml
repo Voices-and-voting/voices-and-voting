@@ -1,0 +1,11 @@
+%h1
+  Candidate Match Questionaire
+
+%h2
+  Taxes
+
+%ul
+  %li
+    = link_to 'More Taxes', survey_3_path(one: params[:one], two: 'more')
+  %li
+    = link_to 'Less Taxes', survey_3_path(one: params[:one], two: 'less')
