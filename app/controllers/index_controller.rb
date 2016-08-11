@@ -1,4 +1,7 @@
 class IndexController < ApplicationController
+  def ballot
+  end
+
   def index
   end
 

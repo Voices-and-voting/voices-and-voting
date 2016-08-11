@@ -11,4 +11,5 @@ Rails.application.routes.draw do
   get '/candidates/carmen', to: 'index#carmen'
   get '/candidates/muffy', to: 'index#muffy'
   get '/candidates/steven', to: 'index#steven'
+  get '/ballot', to: 'index#ballot'
 end
